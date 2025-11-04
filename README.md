@@ -62,19 +62,29 @@ Temporary files are deleted after use.
 🔹 [Code]
 
 Initializes BASS and plays music during InitializeWizard.
+
 Defines a ZIP extraction routine using Shell.Application.
+
 Extracts MyFiles.zip in CurStepChanged when ssPostInstall occurs.
+
 Cleans up temporary files and releases BASS resources on exit.
 
 ▶️ Usage
 
 Place all required files (listed above) in the same folder as the script.
+
 Open the .iss script in Inno Setup Compiler.
+
 Click Compile (F9) to build your installer.
+
 Run the generated setup executable (Output\MyAppSetup.exe).
+
 During installation:
+
 You’ll hear background music.
+
 After installation, the ZIP contents will be automatically extracted into {app}.
+
 
 ## ⚠️ Notes & Tips
 
