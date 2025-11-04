@@ -28,8 +28,6 @@ Before compiling this script, ensure the following are available:
   ```pascal
   Source: "bass.dll"; DestDir: "{app}"
 
-  Required Files
-
 You’ll need to include the following in your project directory:
 
 Setup.iss          ← The script file (this code)
