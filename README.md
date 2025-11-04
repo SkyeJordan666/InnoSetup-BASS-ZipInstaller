@@ -31,9 +31,13 @@ Before compiling this script, ensure the following are available:
   Required Files
 
 You’ll need to include the following in your project directory:
+
 Setup.iss          ← The script file (this code)
+
 bass.dll           ← The BASS audio library
+
 music.mp3          ← Background music
+
 MyFiles.zip        ← Files to extract post-install
 
 ## 📄 Script Overview
