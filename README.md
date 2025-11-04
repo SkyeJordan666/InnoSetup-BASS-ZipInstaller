@@ -40,12 +40,19 @@ MyFiles.zip        ← Files to extract post-install
 🔹 [Setup]
 
 Defines installer metadata and compression settings.
+
 AppName=My Application
+
 AppVersion=1.0
+
 DefaultDirName={autopf}\MyApp
+
 OutputBaseFilename=MyAppSetup
+
 Compression=lzma2
+
 SolidCompression=yes
+
 
 🔹 [Files]
 
